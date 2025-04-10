@@ -114,7 +114,7 @@ export default (TokenDocument) => class extends TokenDocument {
             this.sight.visionMode = "darkvision";
             this.sight.color = null;
             this.sight.attenuation = 0;
-            this.sight.brightness = -1;
+            this.sight.brightness = 0;
             this.sight.saturation = -1;
             this.sight.contrast = 0;
         } else {
